@@ -12,6 +12,7 @@ import sn.edacy.model.Talent;
 
 @Stateless
 public class CohortService {
+	private prenom="tigui";
 
 	@PersistenceContext
 	private EntityManager entityManager;
